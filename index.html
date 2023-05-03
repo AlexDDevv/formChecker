@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main>
+    <div class="left-part">
+      <div class="text">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers thinks is invaluable.</p>
+      </div>
+    </div>
+    <div class="right-part">
+      <div class="tryit">
+        <p><strong>Try it free 7 days</strong> then $20/mo.thereafter</p>
+      </div>
+      <form id="form">
+        <div class="inputs first-container">
+          <input type="text" id="firstName" placeholder="First Name">
+          <span class="error-span">First Name cannot be empty</span>
+          <img src="./assets/images/icon-error.svg" alt="icon signalant une erreur">
+        </div>
+        <div class="inputs last-container">
+          <input type="text" id="lastName" placeholder="Last Name">
+          <span class="error-span">Last Name cannot be empty</span>
+          <img src="./assets/images/icon-error.svg" alt="icon signalant une erreur">
+        </div>
+        <div class="inputs email-container">
+          <input type="text" id="email" placeholder="Email Address">
+          <span class="error-span" id="spanEmail">Looks like this is not an email</span>
+          <img src="./assets/images/icon-error.svg" alt="icon signalant une erreur">
+        </div>
+        <div class="inputs password-container">
+          <input type="password" id="password" placeholder="Password">
+          <span class="error-span">Password cannot be empty</span>
+          <img src="./assets/images/icon-error.svg" alt="icon signalant une erreur">
+        </div>
+        <div class="btn">
+          <button type="submit" id="btn">claim your free trial</button>
+          <p>By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="./assets/index.js"></script>
+</body>
+</html>
